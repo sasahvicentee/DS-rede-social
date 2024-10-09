@@ -12,14 +12,15 @@ async function quantidadeUsuarios() {
 
   const data = [
     {
-      x: nomeDasRedes,
-      y: quantidadeUsuarios,
-      type: 'bar'
-      marker: {
-        color: getCSS('--primary-color')
-      }
+        x: nomeDasRedes, 
+        y: quantidadeDeUsuarios, 
+        type: 'bar',
+        marker: {
+            color: getCSS('--primary-color')
+        }
     }
-  ]
+]
+
   
   const grafico = document.createElement('div')
 grafico.className = 'grafico'
